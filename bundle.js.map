@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["// eslint-disable-next-line require-jsdoc\nexport function run() {\n  console.log('Hello, Github Actions! \uD83C\uDF89');\n}\n"],
+  "mappings": "6JAAA,uDACO,cAAe,CACpB,QAAQ,IAAI",
+  "names": []
+}
