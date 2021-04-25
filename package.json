@@ -1,7 +1,6 @@
 {
   "name": "nodejs-github-actions",
   "version": "1.0.0",
-  "main": "index.js",
   "homepage": "https://sarangkartikey50.github.io/nodejs-github-actions",
   "repository": "https://github.com/sarangkartikey50/nodejs-github-actions",
   "author": "sarangkartitkey50@gmail.com",
