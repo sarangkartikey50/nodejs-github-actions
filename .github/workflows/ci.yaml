@@ -13,12 +13,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Installing dependencies
-        run: npm i
+        run: yarn i
       - name: Running unit tests
-        run: npm run test
+        run: yarn test
       - name: Running linter
-        run: npm run lint
+        run: yarn lint
       - name: Building app
-        run: npm run build
-      - name: Deploying app
-        run: npm run deploy
+        run: yarn build
+      # - name: Deploying app
+      #   run: yarn deploy
