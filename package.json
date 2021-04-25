@@ -10,7 +10,7 @@
     "serve": "yarn build && serve -d build -p 3000",
     "lint": "eslint --fix",
     "test": "jest --coverage=true",
-    "deploy": "yarn build && gh-pages -d build"
+    "deploy": "yarn build && ./node_modules/gh-pages/bin/gh-pages.js -d build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
