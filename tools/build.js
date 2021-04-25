@@ -39,7 +39,7 @@ const build = async () => {
         </style>
       </head>
       <body bgcolor="#333">
-        <h1>Hello, Github Actions! 🎉</h1>
+        <h1>Hello, Github Actions! 🚀</h1>
         <script src="./bundle.js"></script>
         <script>
           bundle.run();

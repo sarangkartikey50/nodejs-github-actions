@@ -12,13 +12,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Installing dependencies
+      - name: Installing dependencies 💿
         run: yarn
-      - name: Running unit tests
+      - name: Running unit tests 🛎️
         run: yarn test
-      - name: Running linter
+      - name: Running linter 📁
         run: yarn lint
-      - name: Building app
+      - name: Building app 📦
         run: yarn build
       - name: Deploying app 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
